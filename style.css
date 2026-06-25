@@ -476,6 +476,7 @@ section { padding: 7rem 5vw; }
   color: var(--charcoal-dark);
   padding-left: 1.2rem;
   position: relative;
+  text-align: justify;
 }
 
 .timeline-bullets li::before {
@@ -1342,6 +1343,7 @@ footer {
   color: var(--text-muted);
   line-height: 1.6;
   flex: 1;
+  text-align: justify;
 }
 
 .service-badge {
@@ -1422,6 +1424,7 @@ footer {
   color: var(--text-muted);
   line-height: 1.6;
   flex: 1;
+  text-align: justify;
 }
 
 .product-cta {
