@@ -1301,7 +1301,7 @@ footer {
 }
 
 /* ── SERVICES SECTION ── */
-#services { padding: var(--section-pad) var(--side-pad); }
+#services { background: transparent; }
 
 .services-grid {
   display: grid;
