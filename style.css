@@ -397,7 +397,7 @@ section { padding: 7rem 5vw; }
 }
 
 /* ── EXPERIENCE ── */
-#experience { background: transparent; }
+#experience { background: transparent; padding-bottom: 3rem; }
 
 .timeline {
   max-width: 860px;
@@ -1301,7 +1301,7 @@ footer {
 }
 
 /* ── SERVICES SECTION ── */
-#services { background: transparent; }
+#services { background: transparent; border-top: 1px solid var(--border-line); }
 
 .services-grid {
   display: grid;
