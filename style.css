@@ -1287,3 +1287,86 @@ footer {
 }
 
 .proj-dl-btn:hover { background: var(--sage-green); }
+/* ── HERO MENTOR BADGE ── */
+.hero-mentor-badge {
+  font-size: 0.78rem;
+  color: var(--sage-green);
+  margin-top: 0.5rem;
+  letter-spacing: 0.03em;
+}
+.hero-mentor-badge a {
+  color: var(--sage-green);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ── SERVICES SECTION ── */
+#services { padding: var(--section-pad) var(--side-pad); }
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin-top: 2.5rem;
+}
+
+.service-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.75rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+.service-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--sage-green);
+}
+
+.service-icon { font-size: 1.6rem; }
+
+.service-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-top: 0.25rem;
+}
+
+.service-desc {
+  font-size: 0.83rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  flex: 1;
+}
+
+.service-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: var(--sage-green);
+  background: rgba(110,116,101,0.1);
+  padding: 3px 10px;
+  border-radius: 20px;
+  width: fit-content;
+}
+
+.service-cta {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--sage-green);
+  text-decoration: none;
+  border: 1px solid var(--sage-green);
+  padding: 6px 14px;
+  border-radius: 6px;
+  width: fit-content;
+  transition: background 0.2s, color 0.2s;
+}
+.service-cta:hover {
+  background: var(--sage-green);
+  color: #fff;
+}
