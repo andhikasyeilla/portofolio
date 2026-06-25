@@ -1373,7 +1373,7 @@ footer {
 }
 
 /* ── PRODUCTS SECTION ── */
-#products { background: transparent; }
+#products { background: transparent; border-top: 1px solid var(--border-line); }
 
 .products-grid {
   display: grid;
