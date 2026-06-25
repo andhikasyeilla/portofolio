@@ -204,6 +204,7 @@ nav {
   line-height: 1.8;
   opacity: 0;
   animation: fadeUp 0.7s 0.8s forwards;
+  text-align: justify;
 }
 
 .hero-actions {
